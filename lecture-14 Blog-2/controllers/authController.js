@@ -29,7 +29,7 @@ const registerController = async (req, res) => {
     return res.send({
       statuss: 500,
       message: "Internal server error",
-      erro: error,
+      error: error,
     });
   }
 };
